@@ -1,0 +1,59 @@
+body{                               /* this is tag */
+    background-color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{                                  /* remove all link in the body */
+    text-decoration: none;          /* get rid off underline in navigation */
+    color: red;
+}
+
+#container{
+    background-color: white;
+    width: 800px;
+    margin-left: auto;              /* horizontal center container */
+    margin-right: auto;
+
+}
+
+#header{
+    background-color: #66ccff;
+    color: #fff;
+    text-align: center;             /* center text */
+    padding: 10px;
+}
+
+h1, h2{                             /* no margin for h1 & h2 */
+    margin: 0em;                    
+}
+
+#content{
+    padding: 10px;
+}
+
+#nav{
+    width: 180px;
+    float: left;                    /* nav & main side by side */
+}
+
+#nav ul{
+    list-style-type: none;          /* remove bullet point */
+    padding: 0;
+}
+
+#nav .selected{
+    font-weight: bold;              /* Make "Home" bold */
+}
+
+#main{
+    width: 600px;
+    float: right;
+}
+
+#footer{
+    clear: both;                    /* pass floating element and set footer below "content" */
+    text-align: center;
+    padding: 10px;
+    background-color: #999999;
+    color: #fff;
+}
